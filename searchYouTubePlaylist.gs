@@ -5,7 +5,6 @@ function myFunction() {
 
   //URLからプレイリストのIDを抽出
   let playlistId = playlistIdExtraction(ytPlaylistURL);
-  playlistId = 'PLT5klp7W4r8RYjTvxEZjOm6oqC-W6pgt1'
 
   //プレイリストの情報を取得し、スプレッドシートに複写
   searchYouTubePlaylistById(playlistId);
