@@ -46,7 +46,7 @@ function searchYouTubePlaylistById(playlistId) {
     //プレイリストに含まれる動画情報を取得
     var results = YouTube.PlaylistItems.list('snippet', {
       playlistId: playlistId,
-      maxResults: 1      
+      maxResults: 50
     });
 
     const mySheet = SpreadsheetApp.getActiveSpreadsheet().insertSheet();
